@@ -1,64 +1,93 @@
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: 'Arial', sans-serif;
+  color: #222;
+  background: #f5f7fa;
 }
-header {
-  background-color: #003366;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-nav {
-  background-color: #0055aa;
-  text-align: center;
-  padding: 10px;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-.hero {
-  background-color: #ccc;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 2em;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
-}
-.section {
-  padding: 40px 20px;
-  max-width: 1000px;
+.container {
+  width: 90%;
+  max-width: 1200px;
   margin: auto;
 }
-.cta {
-  text-align: center;
-  margin-top: 30px;
-}
-.cta a {
-  background-color: #003366;
+.main-header {
+  background: #005bbb;
   color: white;
-  padding: 15px 30px;
-  border-radius: 8px;
+  text-align: center;
+  padding: 60px 20px;
+}
+.main-header h1 {
+  font-size: 3em;
+}
+.main-header .cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #ff8800;
+  color: white;
   text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.intro {
+  padding: 60px 20px;
+  background: #fff;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  background: #eef3f9;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.why {
+  padding: 50px 20px;
+  background: #eaf2ff;
+}
+.why ul {
+  list-style: none;
+  padding: 0;
+}
+.why li {
+  padding: 10px 0;
   font-size: 1.1em;
 }
+.gallery {
+  padding: 50px 20px;
+}
+.gallery .images {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.testimonials {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.testimonials blockquote {
+  font-style: italic;
+  background: #e2edff;
+  display: inline-block;
+  padding: 15px 20px;
+  margin: 10px;
+  border-left: 5px solid #1e90ff;
+}
 footer {
-  background-color: #333;
-  color: white;
+  background: #ddd;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
-}
-@media (max-width: 600px) {
-  .hero {
-    font-size: 1.4em;
-    height: 200px;
-  }
+  font-size: 0.9em;
 }
