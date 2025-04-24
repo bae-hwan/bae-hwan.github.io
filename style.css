@@ -1,98 +1,33 @@
 
 body {
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: #f7f9fc;
-    color: #222;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  text-align: center;
 }
-header.hero {
-    background: url('images/job03.jpg') center/cover no-repeat;
-    color: white;
-    padding: 80px 20px;
-    text-align: center;
-}
-.hero-content h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-.hero-content p {
-    font-size: 1.3em;
-    margin-bottom: 20px;
-}
-.hero-btn {
-    padding: 12px 25px;
-    font-size: 1em;
-    background: #ff6600;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-}
-.services, .portfolio, .reviews {
-    padding: 50px 20px;
-    text-align: center;
-}
-.service-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-.service-grid div {
-    width: 220px;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+header {
+  background: #1e90ff;
+  color: white;
+  padding: 40px 20px;
 }
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 40px 20px;
 }
-.photo {
-    width: 250px;
+.gallery img {
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.photo img {
-    width: 100%;
-    border-radius: 8px;
-}
-.photo p {
-    margin-top: 5px;
-    font-size: 0.9em;
-    color: #555;
-}
-.reviews blockquote {
-    font-style: italic;
-    color: #444;
-    background: #e9f3ff;
-    display: inline-block;
-    padding: 15px 20px;
-    margin: 10px;
-    border-left: 5px solid #1e90ff;
+.gallery img:hover {
+  transform: scale(1.05);
 }
 footer {
-    background: #eee;
-    padding: 20px;
-    text-align: center;
-    font-size: 0.9em;
-}
-.contact-bar {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: #1e90ff;
-    text-align: center;
-    padding: 12px;
-}
-.contact-bar a {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-}
-@media(max-width: 600px) {
-    .service-grid, .gallery {
-        flex-direction: column;
-        align-items: center;
-    }
+  padding: 20px;
+  background: #eee;
 }
