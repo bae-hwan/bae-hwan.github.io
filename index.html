@@ -1,77 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>정읍한스카이 | 고소작업 전문</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="정읍한스카이 | 고소작업차 임대 전문, 외벽작업, 터널 및 교량 점검, 전북 정읍시 스카이차량 작업 전문업체.">
+    <meta name="keywords" content="정읍한스카이, 스카이차, 고소작업차, 외벽공사, 교량정비, 터널작업, 정읍 스카이, 스카이 임대">
+    <meta name="author" content="정읍한스카이">
+    <title id="dynamic-title">정읍한스카이 - 고소작업차 전문 업체</title>
+    <style>
+        body { font-family: 'Arial', sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+        header { background-color: #007BFF; color: white; padding: 1em; text-align: center; }
+        nav { background: #0056b3; text-align: center; padding: 0.5em 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .hero { text-align: center; padding: 50px 20px; background: linear-gradient(to right, #6fb1fc, #4364f7); color: white; }
+        .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px; }
+        .gallery img { width: 300px; border-radius: 8px; transition: transform 0.3s ease; }
+        .gallery img:hover { transform: scale(1.05); }
+        footer { background-color: #007BFF; color: white; text-align: center; padding: 1em 0; margin-top: 30px; }
+    </style>
 </head>
 <body>
-
-<header class="main-header">
-  <div class="container">
-    <h1>정읍한스카이</h1>
-    <p>고소작업, 외벽 점검, 교량/터널 정비까지 — 한 번에 해결!</p>
-    <a href="tel:010-8798-6655" class="cta">📞 지금 전화상담</a>
-  </div>
-</header>
-
-<section class="intro">
-  <div class="container">
-    <h2>우리는 이런 일을 합니다</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>🏢 고층 외벽 점검</h3>
-        <p>정확하고 안전한 외벽 점검으로 고객님의 자산을 지킵니다.</p>
-      </div>
-      <div class="card">
-        <h3>🛠️ 터널 및 교량 작업</h3>
-        <p>어려운 위치도 안전하게. 다년간 축적된 노하우.</p>
-      </div>
-      <div class="card">
-        <h3>🎯 간판·조명 설치</h3>
-        <p>간판 교체, 고소 LED 조명 시공까지 빠르게 완료.</p>
-      </div>
+    <header>
+        <h1 id="brand-name">정읍한스카이</h1>
+        <p id="company-desc">정직과 신뢰를 바탕으로 최고의 고소작업 서비스를 제공하는 정읍한스카이입니다.</p>
+    </header>
+    <nav>
+        <a href="#about">소개</a>
+        <a href="#gallery">작업사진</a>
+        <a href="#contact">문의</a>
+    </nav>
+    <div class="hero">
+        <h2 id="hero-text">건물 외벽, 간판, 전기, 통신 공사에 최적화된 스카이차 보유</h2>
+        <p>전문성과 안전을 최우선으로 생각하는 <span id="hero-company">정읍한스카이</span>입니다.</p>
     </div>
-  </div>
-</section>
-
-<section class="why">
-  <div class="container">
-    <h2>왜 정읍한스카이인가?</h2>
-    <ul>
-      <li><strong>10년 이상 무사고 운영</strong> – 안전이 최우선입니다.</li>
-      <li><strong>최신 고소작업 장비 보유</strong> – 1톤부터 7톤까지 보유</li>
-      <li><strong>합리적인 가격</strong> – 정찰제 운영으로 믿음직함</li>
-      <li><strong>즉시 상담 가능</strong> – 010-8798-6655</li>
-    </ul>
-  </div>
-</section>
-
-<section class="gallery">
-  <div class="container">
-    <h2>작업 현장 둘러보기</h2>
-    <div class="images">
-      <img src="images/job01.jpg" alt="작업사진1">
-      <img src="images/job02.jpg" alt="작업사진2">
-      <img src="images/job03.jpg" alt="작업사진3">
+    <div class="gallery" id="gallery">
+        <img src="images/photo1.jpg" alt="작업사진1">
+        <img src="images/photo2.jpg" alt="작업사진2">
+        <img src="images/photo3.jpg" alt="작업사진3">
+        <img src="images/photo4.jpg" alt="작업사진4">
     </div>
-  </div>
-</section>
+    <footer>
+        <p id="footer-company">정읍한스카이 | 전화문의 010-8798-6655</p>
+        <p>&copy; 2025 <span id="footer-name">정읍한스카이</span>. All Rights Reserved.</p>
+    </footer>
 
-<section class="testimonials">
-  <div class="container">
-    <h2>고객 후기</h2>
-    <blockquote>"작업도 빠르고 안전했어요. 친절한 기사님 감사합니다!" – 박○○</blockquote>
-    <blockquote>"믿고 맡길 수 있는 업체입니다. 재이용 의사 100%" – 김○○</blockquote>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <p>© 2025 정읍한스카이 | 전북 정읍시 | 전화: 010-8798-6655</p>
-  </div>
-</footer>
-
+    <script>
+    fetch('https://ipapi.co/json/')
+      .then(response => response.json())
+      .then(data => {
+        const city = data.city || '';
+        let companyName = '한스카이'; // 기본
+        if (city.includes('정읍')) {
+          companyName = '정읍한스카이';
+        } else if (city.includes('남원')) {
+          companyName = '남원한스카이';
+        } else if (city.includes('광주')) {
+          companyName = '광주한스카이';
+        } else if (city.includes('군산')) {
+          companyName = '군산한스카이';
+        } else if (city.includes('익산')) {
+          companyName = '익산한스카이';
+        } else if (city.includes('김제')) {
+          companyName = '김제한스카이';
+        }
+        
+        document.getElementById('brand-name').textContent = companyName;
+        document.getElementById('company-desc').textContent = `정직과 신뢰를 바탕으로 최고의 고소작업 서비스를 제공하는 ${companyName}입니다.`;
+        document.getElementById('hero-company').textContent = companyName;
+        document.getElementById('footer-company').textContent = `${companyName} | 전화문의 010-8798-6655`;
+        document.getElementById('footer-name').textContent = companyName;
+        document.getElementById('dynamic-title').textContent = `${companyName} - 고소작업차 전문 업체`;
+      })
+      .catch(error => {
+        console.error('ipapi 요청 실패:', error);
+      });
+    </script>
 </body>
 </html>
