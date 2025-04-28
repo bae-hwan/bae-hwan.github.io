@@ -9,25 +9,75 @@
   <link rel="stylesheet" href="style.css">
   <style>
     .main-header {
+      background: url('img/sky_truck1.webp') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
-      background-color: #e0f0ff;
-      padding: 30px 20px;
+      position: relative;
+      color: #ffffff;
     }
-    .main-image {
-      max-width: 100%;
-      height: auto;
-      margin-bottom: 20px;
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px 40px;
       border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
+
     #dynamic-company {
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
-      color: #003366;
     }
+
     .main-header p {
-      font-size: 18px;
-      color: #333;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .navbar {
+      background-color: #4a90e2;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px 0;
+      background-color: #f1f1f1;
+      font-size: 14px;
+      color: #555;
     }
   </style>
 </head>
@@ -35,9 +85,10 @@
 <body>
 
 <header class="main-header">
-  <img src="img/sky_truck1.webp" alt="정읍한스카이 스카이차" class="main-image">
-  <h1 id="dynamic-company">한스카이</h1>
-  <p> 고소작업차 임대 전문. 언제든지 신속 대응!</p>
+  <div class="overlay">
+    <h1 id="dynamic-company">한스카이</h1>
+    <p>고소작업차 임대 전문. 언제든지 신속 대응!</p>
+  </div>
 </header>
 
 <nav class="navbar">
