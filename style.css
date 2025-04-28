@@ -13,3 +13,29 @@ header{height:60vh}
 .gallery{flex-direction:column;align-items:center}
 .gallery img{max-width:90%}
 }
+<style>
+  .main-header {
+    text-align: center;
+    background-color: #e0f0ff;
+    padding: 30px 20px;
+  }
+
+  .main-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  #company-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: #003366;
+  }
+
+  .main-header p {
+    font-size: 18px;
+    color: #333;
+  }
+</style>
